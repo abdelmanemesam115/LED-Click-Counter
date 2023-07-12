@@ -13,7 +13,7 @@ Serial.begin(9600);
 void loop(){
 
   if (digitalRead(button) ==HIGH){
-  delay(200000);
+  delay(2000);
     counter++;
   if (counter==1){
   digitalWrite(led1,HIGH);
